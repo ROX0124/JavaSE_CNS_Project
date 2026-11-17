@@ -9,6 +9,7 @@ public class TestMyDateArrayList {
 
 	public static void main(String[] args) {
 		//1. MyDate 타입의 객체만 담을 수 있는 ArrayList 객체를 생성하세요
+		ArrayList list1 = new ArrayList();
 		List<MyDate> list = new ArrayList<>();
 		//2. fillArrayList() 메서드를 호출하세요
 		fillArrayList(list);
